@@ -20,7 +20,7 @@ var (
 	dryRun      = flag.Bool("dryrun", false, "Output strategy decisions without placing orders")
 	logToFile   = flag.Bool("logtofile", false, "Write log to file instead of stdout")
 	daemon      = flag.Bool("daemon", false, "Run continuously")
-	interval    = flag.Int64("interval", 10, "Minutes between iterations when run as daemon (default: 10)")
+	interval    = flag.Int64("interval", 5, "Minutes between iterations when run as daemon (default: 5)")
 )
 
 // BotConfig ...
